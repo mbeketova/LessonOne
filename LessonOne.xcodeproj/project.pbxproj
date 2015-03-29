@@ -15,6 +15,10 @@
 		845C0C731AC777320033E78D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845C0C721AC777320033E78D /* Images.xcassets */; };
 		845C0C761AC777320033E78D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845C0C741AC777320033E78D /* LaunchScreen.xib */; };
 		845C0C821AC777320033E78D /* LessonOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C0C811AC777320033E78D /* LessonOneTests.m */; };
+		845C0C8D1AC777960033E78D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845C0C8C1AC777960033E78D /* Foundation.framework */; };
+		845C0C8F1AC7779E0033E78D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845C0C8E1AC7779E0033E78D /* UIKit.framework */; };
+		845C0C911AC777A40033E78D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845C0C901AC777A40033E78D /* QuartzCore.framework */; };
+		845C0C941AC777E90033E78D /* InsectDeterminant.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C0C931AC777E90033E78D /* InsectDeterminant.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,11 @@
 		845C0C7B1AC777320033E78D /* LessonOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LessonOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		845C0C801AC777320033E78D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		845C0C811AC777320033E78D /* LessonOneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LessonOneTests.m; sourceTree = "<group>"; };
+		845C0C8C1AC777960033E78D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		845C0C8E1AC7779E0033E78D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		845C0C901AC777A40033E78D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		845C0C921AC777E90033E78D /* InsectDeterminant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsectDeterminant.h; sourceTree = "<group>"; };
+		845C0C931AC777E90033E78D /* InsectDeterminant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsectDeterminant.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +58,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845C0C911AC777A40033E78D /* QuartzCore.framework in Frameworks */,
+				845C0C8F1AC7779E0033E78D /* UIKit.framework in Frameworks */,
+				845C0C8D1AC777960033E78D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +77,8 @@
 		845C0C561AC777320033E78D = {
 			isa = PBXGroup;
 			children = (
+				845C0C951AC7781F0033E78D /* InsectDeterminant */,
+				845C0C8B1AC7775D0033E78D /* Framworks */,
 				845C0C611AC777320033E78D /* LessonOne */,
 				845C0C7E1AC777320033E78D /* LessonOneTests */,
 				845C0C601AC777320033E78D /* Products */,
@@ -120,6 +134,25 @@
 				845C0C801AC777320033E78D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		845C0C8B1AC7775D0033E78D /* Framworks */ = {
+			isa = PBXGroup;
+			children = (
+				845C0C901AC777A40033E78D /* QuartzCore.framework */,
+				845C0C8E1AC7779E0033E78D /* UIKit.framework */,
+				845C0C8C1AC777960033E78D /* Foundation.framework */,
+			);
+			name = Framworks;
+			sourceTree = "<group>";
+		};
+		845C0C951AC7781F0033E78D /* InsectDeterminant */ = {
+			isa = PBXGroup;
+			children = (
+				845C0C921AC777E90033E78D /* InsectDeterminant.h */,
+				845C0C931AC777E90033E78D /* InsectDeterminant.m */,
+			);
+			name = InsectDeterminant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +259,7 @@
 				845C0C6B1AC777320033E78D /* LessonOne.xcdatamodeld in Sources */,
 				845C0C6E1AC777320033E78D /* ViewController.m in Sources */,
 				845C0C651AC777320033E78D /* main.m in Sources */,
+				845C0C941AC777E90033E78D /* InsectDeterminant.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
